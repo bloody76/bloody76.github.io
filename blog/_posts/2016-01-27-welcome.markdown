@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Welcome to this fresh blog!"
+date:   2016-01-27 13:24:40 +0100
+---
+
+Welcome !
