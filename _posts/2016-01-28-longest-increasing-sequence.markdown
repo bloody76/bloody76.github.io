@@ -60,10 +60,10 @@ the good hints (maybe I will write a post about it later).
 
 The solution I came with is a $O(nlog(n))$ with an extra $O(n)$ space. The first thing you need to
 do is to sort the array and keep track of the indices (1-based indices). This way, you can resolve the exact same
-problem with the indices. But this time, you are assured that the values are uniques and
-fill a given interval $[1; n]$.
+problem with the indices. But this time, you are assured that the values are uniques, its fills the interval $[1; n]$,
+and you get the values in increasing order.
 
-Here is a BIT with size 7.
+To better visualize the algorithm, I will put an image of a BIT of size 7.
 
 <center>
     <img src="https://docs.google.com/drawings/d/1ZjNEilhJVogTSllTy5JBplXMqhykB0vL_na5NUHLfis/pub?w=348&h=199" />
